@@ -14,17 +14,20 @@
     <header>
       <div id="titlelogo">
         <h1 id="mainTitle">Toolbox Trainers</h1>
+        <br>
         <img src="./images/ttlogo.png" alt="Toolbox Trainers logo: a red toolbox with two white Ts on it" width="71"
           height="26" id="logo">
       </div>
+      <p>www.toolbox-trainers.org</p>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="programsandfields.html">Programs and Field</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-        <li class="noMobile"><a href="hours.html">Hours</a></li>
-        <li class="noMobile"><a href="contactus.html">Contact Us</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="programsandfields.html">Programs & Fields</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li class="noMobile"><a href="hours.html">Hours</a></li>
+          <li class="noMobile"><a href="contactus.html">Contact Us</a></li>
+          <li class="noMobile"><a href="links.html">Links</a></li>
         </ul>
       </nav>
     </header>
@@ -32,10 +35,57 @@
       <section>
         <h2>Sign Up</h2>
         <p>To sign up, please submit a form to be taken into consideration:
-          <a
-            href="https://forms.office.com/Pages/DesignPageV2.aspx?prevorigin=shell&origin=RevampFRE&subpage=design&id=rAuOQ1LApESMRS18QmC2v_dl-WGRLVhHgv9k2ZZairVUMjMyTTlQWkNKSDMzTE5USUpOSzRWQkY0Vi4u">Sign
-            Up Today!</a>
         </p>
+      </section>
+      <section>
+        <h2>Sign Up Form</h2>
+        <form name="signUp" method="get" action="contacted.html">
+          <label for="firstName">First Name</label>
+          <input id="firstName" type="text" name="firstName" size="30" maxlength="30" placeholder="First-Name">
+          <br>
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" name="lastName" size="30" maxlength="30" placeholder="Last-Name">
+          <br>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" size="30" maxlength="30" placeholder="example@email.com">
+          <br>
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="tel" name="phone" size="15" maxlength="15" placeholder="000-000-0000">
+          <br>
+          <label for="position">Which position would you like to apply for?</label>
+          <select id="position" name="position">
+            <option>--Select One--</option>
+            <option value="intern">Internship</option>
+            <option value="manager">Manager</option>
+            <option value="receptionist">Receptionist</option>
+            <option value="socMedMan">Social Media Manager</option>
+            <option value="supervisor">Supervisor</option>
+            <option value="recruiter">Recruiter</option>
+            <option value="janitor">Janitor</option>
+          </select>
+          <br>
+          <fieldset>
+            <legend>When do you want to work?</legend>
+            <input id="weekdays" type="radio" name="days">
+            <label for="weekdays">Weekdays (Mon-Fri)</label>
+            <input id="weekends" type="radio" name="days">
+            <label for="weekends">Weekends (Sat-Sun)</label>
+            <input id="noPref" type="radio" name="days">
+            <label for="noPref">No Preference</label>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>How would you like to be contacted?</legend>
+            <input id="emailOpt" name="email" type="checkbox">
+            <label for="emailOpt">Email</label>
+            <input id="phoneOpt" name="phone" type="checkbox">
+            <label for="phoneOpt">Phone Number</label>
+            <br>
+          </fieldset>
+          <textarea rows="5" cols="50">Comments, questions, or concerns</textarea>
+          <br>
+          <input value="Submit" type="submit">
+        </form>
       </section>
       <section>
         <h2>Response Time</h2>
@@ -48,10 +98,11 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="programsandfields.html">Programs and Field</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="programsandfields.html">Programs & Fields</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
           <li><a href="hours.html">Hours</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="links.html">Links</a></li>
         </ul>
       </nav>
       <small>&copy; Copyright 2024. Licensed under Creative Commons</small>
